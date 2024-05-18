@@ -1,0 +1,37 @@
+
+/*
+    Barra de navegacion 
+       y sus items
+*/
+
+/* Estilo de la barra de navegacion */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+/* Alineacion de los items de la barra de navegacion */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Separacion de los items de la barra de navegacion */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Estilo de los links de la barra de navegacion */
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
