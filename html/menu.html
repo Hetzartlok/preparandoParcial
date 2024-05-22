@@ -19,10 +19,10 @@
     </nav>
 
     <main>
-        <section>
+        <section id="seccion-cotizar">
             <div id="contenedor-cotizar">
-                <div>
-                    <h2 style="font-size: 25;">Cotiza ahora tu viaje!</h2>
+                <div id="titulo-cotizar">
+                    <h2>Cotiza ahora tu viaje!</h2>
                 </div>
                 <div id="contenedor-cotizar-info">
                     <div id="contenedor-Destinos">
@@ -32,6 +32,7 @@
                                 <option value="opcion-barcelona">Barcelona</option>
                                 <option value="opcion-paris">Paris</option>
                                 <option value="opcion-roma">Roma</option>
+                                <option value="opcion-tokyo">Tokyo</option>
                                 <option value="opcion-vacio" selected></option>
                             </select>
                         </div>
@@ -52,10 +53,19 @@
                         <p id="contador-pasajeros">0</p>
                         <button id="incrementar">+</button>
                     </div>
+                    <div id="contenedor-boton-enviar">
+                        <button type="submit" id="boton-enviar" value="Cotizar" onclick="redirigir()">Cotizar --></button>
+                    </div>
                 </div>
             </div>
         </section>
+        <section id="informacion">
+
+        </section>
     </main>
+    <footer>
+        <p>&copy; Viaja con nosotros!</p>
+    </footer>
 
     <script src="../js/menu.js"></script>
 </body>

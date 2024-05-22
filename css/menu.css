@@ -1,7 +1,3 @@
-body {
-    background-color: white;
-}
-
 /*------------------------------------------------------------------------------*/
 /*-------------------------------Barra de Navegacion----------------------------*/
 /*------------------------------------------------------------------------------*/
@@ -9,8 +5,8 @@ body {
 /* Estilo de la barra de navegacion */
 nav {
     display: flex;
-    justify-content: center;
-    background-color: antiquewhite;
+    justify-content: right;
+    background-color: rgb(42, 76, 180);
 }
 
 /* Alineacion de los items de la barra de navegacion */
@@ -29,7 +25,7 @@ nav ul li {
 /* Estilo de los links de la barra de navegacion */
 nav ul li a {
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 15px;
 }
@@ -37,24 +33,31 @@ nav ul li a {
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
-
-#destinos {
-    padding: 30%;
-    border-collapse: collapse;
-    border: 1px solid black;
+body {
+    background-color: rgb(3, 3, 63);
 }
 
-#destinos td {
-    border: 1px solid black;
+#titulo-cotizar h2 {
+    font-size: 25px;
+}
+
+#seccion-cotizar {
+    background-color: rgb(42, 76, 180);
+    color: white;
+    width: 30%;
+    margin: auto;
+    text-align: center;
 }
 
 #contenedor-Destinos p,
 #contenedor-Destinos select {
-    display: inline-block;
+    display:    inline-block;
+    margin:     auto;
 }
 
 #contenedor-fecha-inicio {
-    display: inline-block;
+    display:    inline-block;
+    margin:     auto;
 }
 
 #contenedor-fecha-fin {
@@ -66,4 +69,13 @@ nav ul li a {
 #contador-pasajeros,
 #incrementar {
     display: inline-block;
+}
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+
+footer {
+    color: white;
+    text-align: center;
 }
