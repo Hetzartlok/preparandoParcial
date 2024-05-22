@@ -1,13 +1,16 @@
 let contador = 0;
+let pasajerosActual = document.getElementById("contador-pasajeros")
 
 document.getElementById("incrementar").addEventListener('click', () => {
-  contador++;
-  document.getElementById("contador").textContent = contador;
+    contador++;
+    document.getElementById("contador-pasajeros").textContent = contador;
 });
 
 document.getElementById('disminuir').addEventListener('click', () => {
-  contador--;
-  document.getElementById('contador').textContent = contador;
+    if (contador>0) {
+        contador--;
+    }
+        document.getElementById('contador-pasajeros').textContent = contador;
 });
 
 function redirigir() {
