@@ -6,10 +6,12 @@
 
     <link rel="stylesheet" href="../css/menu.css">
 
-    <title>Document</title>
+    <title>Viajes LinLin!</title>
 </head>
 <body>
-    <!--Barra de navegacion-->
+    <!------------------------------------------------------------------------------>
+    <!------------------------------Barra de nav------------------------------------>
+    <!------------------------------------------------------------------------------>
     <nav>
         <ul>
             <li><a href="#">Item 1</a></li>
@@ -19,6 +21,14 @@
     </nav>
 
     <main>
+        <section id="seccion-titulo">
+            <div id="titulo-pagina">
+                <h1>Bienvenido a viajes LinLin!</h1>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------>
+        <!------------------------------Seccion Cotizar--------------------------------->
+        <!------------------------------------------------------------------------------>
         <section id="seccion-cotizar">
             <div id="contenedor-cotizar">
                 <div id="titulo-cotizar">
@@ -59,10 +69,28 @@
                 </div>
             </div>
         </section>
-        <section id="informacion">
 
+        <!------------------------------------------------------------------------------>
+        <!------------------------------------------------------------------------------>
+        <!------------------------------------------------------------------------------>
+        <section id="informacion">
+            <div id="contenedor-informacion">
+                <img src="https://assist-365.com/0b6aa7152d1ddf392cf7.svg" alt="">
+                <h2>No te preocupes si cambias de Destino</h2>
+                <p>nuestras coberturas sirven en todo el mundo. Vayas a donde vayas, solo preocupate de pasarla bien.</p>
+            </div>
+            
+            <div id="contenedor-FAQ">
+                <div class="pregunta" onclick="mostrarRespuesta(this)">¿Como puedo obtener asistencia al viajero con "Viajes LinLin"?</div>
+                <div class="respuesta">Obtener asistencia al viajero es rapido y sencillo. solo necesitas ingresar a nuestro sitio web, seleccionar tu destino y las fechas de tu viaje, y obtendras diferentes opciones de cobertura. Puedes elegir el plan que mejor se adapte a tus necesidades y realizar la compra online de forma segura y confiable</div>
+                <div class="pregunta" onclick="mostrarRespuesta(this)">¿Es obligatorio contratar un seguro de viaje para viajar al exterior?</div>
+                <div class="respuesta">aunque no es obligatorio para todos los destinos, se recomienda encarecidamente contratar un seguro de viaje al viajar desde tu pais de residencia hacia otro. esto te brindara proteccion y asistencia medica en caso de emergencias durante tu viaje, evitando gastos imprevistos y garantizando tu tranquilidad</div>
+                <div class="pregunta" onclick="mostrarRespuesta(this)">¿Que es un seguro de viaje y para qué sirve?</div>
+                <div class="respuesta">Un seguro de viaje es un servicio que brinda asistencia general y soporte medico en caso de emergencias durante tu viaje.</div>
+            </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; Viaja con nosotros!</p>
     </footer>

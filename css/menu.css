@@ -33,6 +33,16 @@ nav ul li a {
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
+
+#seccion-titulo {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
 body {
     background-color: rgb(3, 3, 63);
 }
@@ -47,8 +57,13 @@ body {
     width: 30%;
     margin: auto;
     text-align: center;
+    font-size: 17px;
+    font-weight: bold;
 }
 
+#contenedor-cotizar {
+    margin-top: 10%;
+}
 #contenedor-Destinos p,
 #contenedor-Destinos select {
     display:    inline-block;
@@ -69,6 +84,48 @@ body {
 #contador-pasajeros,
 #incrementar {
     display: inline-block;
+}
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+
+#informacion {
+    color: white;
+}
+
+#contenedor-informacion img {
+    width: 45%;
+}
+
+#contenedor-informacion {
+    background-color: rgb(42, 76, 180);
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+}
+#contenedor-informacion p{
+    font-size: 17px;
+}
+
+.pregunta {
+    text-align: center;
+    width: 75%;
+    background-color:rgb(42, 76, 180);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+.respuesta {
+    background-color:rgb(42, 76, 180);
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    display: none;
+    font-size: 20px;
 }
 
 /*------------------------------------------------------------------------------*/

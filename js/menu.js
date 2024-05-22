@@ -27,3 +27,15 @@ function redirigir() {
         window.location.href = "https://www.google.com/?hl=es";
     }
 }
+
+function mostrarRespuesta(elemento) {
+    var respuesta = elemento.nextElementSibling;
+    while (respuesta && respuesta.tagName.toLowerCase()!= "div") {
+      respuesta = respuesta.nextElementSibling;
+    }
+    if (respuesta.style.display == "block") {
+      respuesta.style.display = "none";
+    } else {
+      respuesta.style.display = "block";
+    }
+  }
