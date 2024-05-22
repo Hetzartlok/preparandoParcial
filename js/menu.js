@@ -18,13 +18,13 @@ function redirigir() {
     var seleccion = combo.options[combo.selectedIndex].value;
 
     if (seleccion == "opcion-barcelona"){
-        window.location.href = "https://www.google.com/?hl=es";
+        window.location.href = "barcelona.html";
     }else if (seleccion == "opcion-paris"){
-        window.location.href = "https://www.google.com/?hl=es";
+        window.location.href = "paris.html";
     }else if (seleccion == "opcion-roma"){
-        window.location.href = "https://www.google.com/?hl=es";
+        window.location.href = "roma.html";
     }else if (seleccion == "opcion-tokyo"){
-        window.location.href = "https://www.google.com/?hl=es";
+        window.location.href = "tokio.html";
     }
 }
 

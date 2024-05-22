@@ -1,0 +1,58 @@
+/*------------------------------------------------------------------------------*/
+/*-------------------------------Barra de Navegacion----------------------------*/
+/*------------------------------------------------------------------------------*/
+
+/* Estilo de la barra de navegacion */
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(42, 76, 180);
+}
+
+/* Alineacion de los items de la barra de navegacion */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Separacion de los items de la barra de navegacion */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Estilo de los links de la barra de navegacion */
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(3, 3, 63);
+    color: white;
+}
+
+#ciudades-info {
+    width: 75%;
+    background-color: rgb(42, 76, 180);
+    text-align: center;
+    margin: auto;
+}
+
+#imagen-ciudad {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+.ciudad ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
