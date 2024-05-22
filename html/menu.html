@@ -17,5 +17,46 @@
             <li><a href="#">Item 3</a></li>
         </ul>
     </nav>
+
+    <main>
+        <section>
+            <div id="contenedor-cotizar">
+                <div>
+                    <h2 style="font-size: 25;">Cotiza ahora tu viaje!</h2>
+                </div>
+                <div id="contenedor-cotizar-info">
+                    <div id="contenedor-Destinos">
+                        <div id="contenedor-ComboBox">
+                            <p>Destino:</p>
+                            <select name="comboBox-Destinos" id="comboBox-Destinos">
+                                <option value="opcion-barcelona">Barcelona</option>
+                                <option value="opcion-paris">Paris</option>
+                                <option value="opcion-roma">Roma</option>
+                                <option value="opcion-vacio" selected></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="contenedor-fechas">
+                        <div id="contenedor-fecha-inicio">
+                            <p>Fecha de inicio:</p>
+                            <input type="date">
+                        </div>
+                        <div id="contenedor-fecha-fin">
+                            <p>Fecha de fin:</p>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div id="contenedor-pasajeros">
+                        <p>Pasajeros:</p>
+                        <button id="disminuir">-</button>
+                        <p id="contador-pasajeros">0</p>
+                        <button id="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/menu.js"></script>
 </body>
 </html>

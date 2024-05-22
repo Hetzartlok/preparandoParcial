@@ -1,8 +1,10 @@
+body {
+    background-color: white;
+}
 
-/*
-    Barra de navegacion 
-       y sus items
-*/
+/*------------------------------------------------------------------------------*/
+/*-------------------------------Barra de Navegacion----------------------------*/
+/*------------------------------------------------------------------------------*/
 
 /* Estilo de la barra de navegacion */
 nav {
@@ -35,3 +37,33 @@ nav ul li a {
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
+
+#destinos {
+    padding: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#destinos td {
+    border: 1px solid black;
+}
+
+#contenedor-Destinos p,
+#contenedor-Destinos select {
+    display: inline-block;
+}
+
+#contenedor-fecha-inicio {
+    display: inline-block;
+}
+
+#contenedor-fecha-fin {
+    display: inline-block;
+}
+
+#contenedor-pasajeros p,
+#disminuir,
+#contador-pasajeros,
+#incrementar {
+    display: inline-block;
+}
